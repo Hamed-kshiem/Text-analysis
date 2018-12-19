@@ -1,0 +1,96 @@
+--------------------(Original text)---------------------
+This is a file with 
+five lines. It has two sentences, 
+and the word file is contained 
+
+
+in multiple lines of this file. 
+This file can be used for testing?
+
+---------------------(findLine)--------------------
+word found :
+Optional[five lines. It has two sentences, ]
+
+-----------------------(Lines that contains a word)------------------
+five lines. It has two sentences, 
+in multiple lines of this file. 
+
+--------------------(Remove Empty lines + create new file)---------------------
+This is a file with 
+five lines. It has two sentences, 
+and the word file is contained 
+in multiple lines of this file. 
+This file can be used for testing?
+
+----------------------(wordStream)-------------------
+a
+and
+be
+can
+contained
+file
+five
+for
+has
+in
+is
+it
+lines
+multiple
+of
+sentences
+testing
+the
+this
+two
+used
+with
+word
+
+-----------------------(wordList+UpperCase test)------------------
+A
+AND
+BE
+CAN
+CONTAINED
+FILE
+FIVE
+FOR
+HAS
+IN
+IS
+IT
+LINES
+MULTIPLE
+OF
+SENTENCES
+TESTING
+THE
+THIS
+TWO
+USED
+WITH
+WORD
+
+-----------------------(AVG Line length)------------------
+AVG : 21.57
+
+-----------------------(AVG Word length!!)------------------
+AVG : 4.71
+
+-----------------------(alphaGrouping)------------------
+Letter: a; Words : [a, and]
+Letter: b; Words : [be]
+Letter: c; Words : [contained, can]
+Letter: f; Words : [file, five, file, file, file, for]
+Letter: h; Words : [has]
+Letter: i; Words : [is, it, is, in]
+Letter: l; Words : [lines, lines]
+Letter: m; Words : [multiple]
+Letter: o; Words : [of]
+Letter: s; Words : [sentences]
+Letter: t; Words : [this, two, the, this, this, testing]
+Letter: u; Words : [used]
+Letter: w; Words : [with, word]
+
+Process finished with exit code 0
